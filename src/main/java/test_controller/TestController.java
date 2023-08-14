@@ -28,7 +28,7 @@ public class TestController extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		var d = 9;
 		var ss = 2;
-		var aa = 1;
+		var aa = 12;
 		var xxx = request.getParameter("xxx");
 		System.out.println();
 		request.setAttribute("nickname", xxx);
