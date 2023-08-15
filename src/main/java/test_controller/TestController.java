@@ -26,7 +26,7 @@ public class TestController extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		eeee
+		var eeee = 8;
 		var d = 9;
 		var ss = 2;
 		var aa = 12;
